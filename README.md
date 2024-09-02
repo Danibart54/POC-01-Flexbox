@@ -6,4 +6,4 @@
 <p align="center"> Projeto para explicar o flexbox. Cada propriedade, como funciona e como usar.
 <h2>Propriedades</h2>
 <h3 height="35px">Flex Container</h3>
-<h3 height="35px">Flex Items</h4>
+<h3 height="35px">Flex Items</h3>
