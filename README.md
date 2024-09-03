@@ -20,7 +20,7 @@ São os elementos filhos de um Flex Container . se colocar display: flex; em um 
             background-color: lightgray;
         }
 ```
-
+Cada conteiner organiza seus items de maneira diferente , assim pode-se ser usado como controlar a direção que os itens são dispostos dentro de um flex conteiner
 
 
 ### flex-direction
