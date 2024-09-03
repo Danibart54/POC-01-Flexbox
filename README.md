@@ -45,7 +45,7 @@ O eixo principal continua sendo vertical, mas os itens são invertidos.
 
 <img  src="https://github.com/user-attachments/assets/cb339389-679c-4d04-ad17-176d20e170be" width="500px">
 
-[ Código... ](Projetos/.css)
+[ Código... ](Projetos/flex-cont.css)
 
 
 ### justify-content
