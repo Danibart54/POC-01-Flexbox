@@ -8,13 +8,21 @@
 ## Flex Container
 <img style="float: left" src="https://github.com/user-attachments/assets/c8566934-388d-4e10-bba6-50307963cfc2" width="500px">
 
+São os elementos filhos de um Flex Container . se colocar display: flex; em um contêiner, todos os elementos  dentro dele se tornam Flex Items.
 
-### display
 ```css
-.container {
-  display: flex; /* or inline-flex */
-}
+.flex-container {
+           display: flex; /* Define o contêiner como flexível */
+            flex-direction: row; /* Eixo principal é horizontal */
+            justify-content: space-between; /* Espaço igual entre os itens */
+            align-items: center; /* Itens alinhados ao centro verticalmente */
+            height: 100px;
+            background-color: lightgray;
+        }
 ```
+
+
+
 ### flex-direction
 Ele serve como uma direção dos itens dentro do flex container. por padrão ele é row (linha) por isso quando o display: flex; é adicionado, os elementos ficam em linha, um do lado do outro.
 Para estilos medias queries mobile geralmente usa column , para que o conteúdo seja mostrado em uma única coluna.
@@ -61,14 +69,13 @@ justify-content: space-around; Cria um espaçamento entre os elementos. Os espa�
 
 ### align-items
 align-items
-Pelo próprio nome ele alinha itens de acordo com o eixo cruzado  do container , ela permite alinhamento central no eixo vertical , tipo s
-align-items: stretch;
+Pelo próprio nome ele alinha itens de acordo com o eixo cruzado  do container , ela permite alinhamento central no eixo vertical.
 
  Valor padrão, ele que faz com que os flex itens cresçam igualmente.
 
 Alinha os itens ao início.
 align-items: flex-start;
-align-items: flex-end;
+
 
  Alinha os itens ao final.
 align-items: flex-end;
@@ -83,6 +90,28 @@ align-items: center;
 [ Código... ](Projetos/style2.css)
 
 ### align-content
+é usada para controlar o alinhamento das linhas em um contêiner flexível quando há espaço extra no eixo cruzado , só vai ser usada quando temos varias linha de itens, quando são mais de uma linha usa o flex-wrap , tipos :
+flex-start:As linhas são agrupadas no início do contêiner (ao topo, se o eixo cruzado for vertical).
+
+flex-end:
+As linhas são agrupadas no final do contêiner (à base, se o eixo cruzado for vertical).
+
+center:
+As linhas são centralizadas ao longo do eixo cruzado.
+
+space-between:
+As linhas são distribuídas uniformemente, com a primeira linha no início do contêiner e a última linha no final.
+
+space-around:
+As linhas são distribuídas com espaço igual ao redor de cada linha.
+
+space-evenly:
+As linhas são distribuídas com espaço igual entre elas e as bordas do contêiner.
+
+stretch (padrão):
+As linhas são esticadas para preencher todo o espaço disponível ao longo do eixo cruzado.
+
+
 <img  src="https://github.com/user-attachments/assets/c39d49ae-b820-47b1-9a55-f92a1fb6c028" width="500px">
 
 [ Código... ](Projetos/style3.css)
@@ -91,7 +120,23 @@ align-items: center;
 
 
 ## Flex Items 
+São os elementos filhos de um Flex Container . se colocar display: flex; em um contêiner, todos os elementos  dentro dele se tornam Flex Items.
+
 <img  src="https://github.com/user-attachments/assets/51b5824e-24dc-4c59-9ffe-8ebdd70003bc" width="500px">
+
+```css
+.flex-container {
+  display: flex; /* Transforma o contêiner em um Flex Container */
+}
+
+.item {
+  background-color: lightblue;
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+}
+```
+O item possui suas propriedades como Oder , Flex-grow, Flex-shrink, Flex-basis, Align-self
 
 ### order
 
