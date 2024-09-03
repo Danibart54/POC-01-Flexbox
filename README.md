@@ -18,10 +18,6 @@
 
 <img src="https://github.com/user-attachments/assets/12b881ee-02f9-43d9-9217-bce63c7632ef" width="500px">
 
-### flex-wrap
-<img src="https://github.com/user-attachments/assets/f54d9557-9a41-4dc6-b0da-6592bbeb1a89" width="500px">
-
-### flex-flow
 ### justify-content
 <img src="https://github.com/user-attachments/assets/1edb6f56-8a51-4066-94be-fb50b3a166c0" width="300px">
 
@@ -40,11 +36,6 @@
 ### order
 <img src="https://github.com/user-attachments/assets/5f2fd64c-02ff-4409-b61f-69983dd0fb8c" width="400px">
 
-### flex-grow
-<img src="https://github.com/user-attachments/assets/07e89c90-e6f2-4b21-b70b-dbf171f68064" width="500px">
 
-### flex-shrink
-### flex-basis
-### flex
-### align-self
+
 
