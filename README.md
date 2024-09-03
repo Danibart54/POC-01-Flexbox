@@ -21,9 +21,10 @@
 [ Exemplo... ](Projetos/style.css)
 
 ### align-items
-
+[ Exemplo... ](Projetos/style2.css)
 
 ### align-content
+[ Exemplo... ](Projetos/style3.css)
 
 ### gap,row-gap,column-gap
 
