@@ -6,7 +6,7 @@
 <p align="center"> Projeto para explicar o flexbox. Cada propriedade, como funciona e como usar.</p>
   
 ## Propriedades
-
+<img src="https://github.com/user-attachments/assets/c8566934-388d-4e10-bba6-50307963cfc2" width="100%">
 ## Flex Container
 ### display
 ```css
