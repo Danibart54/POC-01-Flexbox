@@ -4,12 +4,10 @@
 </div>
 <h1 align="center">Explicando o Flexbox do CSS</h1>
 <p align="center"> Projeto para explicar o flexbox. Cada propriedade, como funciona e como usar.</p>
-  
-## Propriedades
-<img style="float: left" src="https://github.com/user-attachments/assets/c8566934-388d-4e10-bba6-50307963cfc2" width="500px">
-<img src="https://github.com/user-attachments/assets/30fad760-0b66-40eb-b9db-9c3d61cda70a" width="500px">
 
 ## Flex Container
+<img style="float: left" src="https://github.com/user-attachments/assets/c8566934-388d-4e10-bba6-50307963cfc2" width="500px">
+
 ### display
 ```css
 .container {
@@ -17,13 +15,16 @@
 }
 ```
 ### flex-direction
+<img src
 ### flex-wrap
 ### flex-flow
 ### justify-content
 ### align-items
 ### align-content
 ### gap,row-gap,column-gap
-## Flex Items
+## Flex Items 
+<img src="https://github.com/user-attachments/assets/30fad760-0b66-40eb-b9db-9c3d61cda70a" width="500px">
+
 ### order
 ### flex-grow
 ### flex-shrink
