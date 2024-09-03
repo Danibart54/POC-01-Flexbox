@@ -19,21 +19,24 @@
 
 ### justify-content
 <img src="https://github.com/user-attachments/assets/0bb6565b-ed41-4935-9442-5c76f63745a6" width="500px">
+
 [ Exemplo... ](Projetos/style.css)
 
 ### align-items
 <img  src="https://github.com/user-attachments/assets/cb099ff7-c4ac-4c38-b519-1c5890eb48e4" width="500px">
+
 [ Exemplo... ](Projetos/style2.css)
 
 ### align-content
 <img  src="https://github.com/user-attachments/assets/c39d49ae-b820-47b1-9a55-f92a1fb6c028" width="500px">
+
 [ Exemplo... ](Projetos/style3.css)
 
 ### gap,row-gap,column-gap
 
 
 ## Flex Items 
-
+<img  src="https://github.com/user-attachments/assets/51b5824e-24dc-4c59-9ffe-8ebdd70003bc" width="500px">
 
 ### order
 
