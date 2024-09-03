@@ -19,7 +19,7 @@
 <img src="https://github.com/user-attachments/assets/12b881ee-02f9-43d9-9217-bce63c7632ef" width="500px">
 
 ### justify-content
-<img src="https://github.com/user-attachments/assets/1edb6f56-8a51-4066-94be-fb50b3a166c0" width="300px">
+[a Exemplo... link](Projetos/justify.html)
 
 ### align-items
 <img src="https://github.com/user-attachments/assets/68db2725-609e-4935-9768-e9250d865b03" width="500px">
