@@ -120,6 +120,19 @@ As linhas são esticadas para preencher todo o espaço disponível ao longo do e
 
 ### gap,row-gap,column-gap
 
+Ele define o espaçamento entre os itens dentro de um contêiner flexível. Ele tambem ubstitui a necessidade de usar margens individuais nos itens para criar espaço entre eles.
+O gap: Define o espaço entre os itens do contêiner flexível.já Espaçamento em um único eixo usa :
+row-gap: Define o espaço entre as linhas horizontal.
+column-gap: Define o espaço entre as colunas vertical.
+
+```css
+.container {
+    display: flex;
+    gap: 20px;
+}
+```
+
+Isso criará um espaço de 20px entre cada item dentro do contêiner.
 
 ## Flex Items 
 São os elementos filhos de um Flex Container . se colocar display: flex; em um contêiner, todos os elementos  dentro dele se tornam Flex Items.
@@ -141,6 +154,18 @@ São os elementos filhos de um Flex Container . se colocar display: flex; em um 
 O item possui suas propriedades como Oder , Flex-grow, Flex-shrink, Flex-basis, Align-self
 
 ### order
+
+Modifica a ordem dos flex itens. Por padrão, todos os itens têm um valor de order de 0, o que significa que são exibidos na ordem em que aparecem no código HTML , assim usando o order pode reorganizar eles ,tipo:
+order: 1;: O item será exibido depois dos itens com valor de order menor.
+order: -1;: O item será exibido antes dos itens com valor de order maior.
+order: 0;: Padrão, sem alteração na ordem.
+
+```css
+.item1 { order: 3; } /*vai ser Exibido por último */
+.item2 { order: 1; } /*vai ser  Exibido primeiro */
+.item3 { order: 2; } /*vai ser Exibido segundo */
+```
+
 
 
 
